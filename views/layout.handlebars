@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='stylesheet' href='/public/css/style.css' />
+  </head>
+
+  <body>
+    <div class="box">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="/search">Search for a GIF here!</a>
+
+            <form class= "form-inline my-2 my-lg-0" action="/search" method="POST">
+                <input type="text" name="giphy-query" placeholder="Search for a GIF here!" />
+                <input type="submit" value="Search" />
+            </form>
+
+        </nav>
+
+        <main class="container-fluid text-center">
+        {{{body}}}
+        </main>
+
+    </div>
+  </body>
+</html>
