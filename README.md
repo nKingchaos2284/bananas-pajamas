@@ -2,10 +2,9 @@
 
 Group Project 2
 
+# gif search engine
 
-# Project Title
-
-A brief description of what this project does and who it's for
+The project is a simple but effiecient giF search engine/generator
 
 ## Appendix
 
