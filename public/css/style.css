@@ -9,11 +9,19 @@ body {
 }
 
 h1 {
+<<<<<<< HEAD
+    color: #10ab82;
+    font-family: 'Changa One', cursive;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 1em;
+=======
   color: #10B387;
   font-family: 'Changa One', cursive;
   font-size: 3em;
   text-align: center;
   padding-top: 1em;
+>>>>>>> b70aedc33c6171f9049619e416af5945b064094e
 }
 
 main {

@@ -2,10 +2,24 @@
 
 Group Project 2
 
+<<<<<<< HEAD
+
+# gif search engine
+
+The project is a simple but effiecient giF search engine/generator
+==================================================================
 
 # Project Title
 
 A brief description of what this project does and who it's for
+
+>>>>>>> b70aedc33c6171f9049619e416af5945b064094e
+>>>>>>>
+>>>>>>
+>>>>>
+>>>>
+>>>
+>>
 
 ## Appendix
 
@@ -14,6 +28,8 @@ Any additional information goes here
 ## Authors
 
 - [@octokatherine](https://www.github.com/octokatherine)
+- https://github.com/nKingchaos2284
+- 
 
 ## Deployment
 
