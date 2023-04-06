@@ -2,24 +2,14 @@
 
 Group Project 2
 
-<<<<<<< HEAD
-
 # gif search engine
 
-The project is a simple but effiecient giF search engine/generator
+The project is a simple but effiecient GIF search engine/generator
 ==================================================================
 
 # Project Title
 
 A brief description of what this project does and who it's for
-
->>>>>>> b70aedc33c6171f9049619e416af5945b064094e
->>>>>>>
->>>>>>
->>>>>
->>>>
->>>
->>
 
 ## Appendix
 
@@ -36,7 +26,17 @@ Any additional information goes here
 To deploy this project run
 
 ```bash
-  npm run deploy
+npm i dotenv
+npm i express
+npm i handlebars
+npm i mysql
+npm i node
+npm i sequelize
+mysql -u root -p
+SOURCE db/schema.sql;
+exit
+node server.js
+
 ```
 
 ## Documentation
