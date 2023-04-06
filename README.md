@@ -1,11 +1,10 @@
-# bananas-pajamas
+# In A Giffy
 
 Group Project 2
 
 # gif search engine
 
 The project is a simple but effiecient GIF search engine/generator
-==================================================================
 
 # Project Title
 
@@ -20,6 +19,7 @@ Any additional information goes here
 - [@octokatherine](https://www.github.com/octokatherine)
 - https://github.com/nKingchaos2284
 - https://github.com/KyleKryst
+- https://github.com/Rmontgomery4801
 
 ## Deployment
 
