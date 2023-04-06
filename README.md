@@ -2,28 +2,13 @@
 
 Group Project 2
 
-<<<<<<< HEAD
-
 # gif search engine
 
-<<<<<<< Updated upstream
-The project is a simple but effiecient giF search engine/generator
-==================================================================
-=======
-# The project is a simple but effiecient GIF search engine/generator
->>>>>>> Stashed changes
+The project is a simple but effiecient GIF search engine/generator
 
 # Project Title
 
 A brief description of what this project does and who it's for
-
->>>>>>> b70aedc33c6171f9049619e416af5945b064094e
->>>>>>>
->>>>>>
->>>>>
->>>>
->>>
->>
 
 ## Appendix
 
@@ -33,19 +18,28 @@ Any additional information goes here
 
 - [@octokatherine](https://www.github.com/octokatherine)
 - https://github.com/nKingchaos2284
-<<<<<<< Updated upstream
-- 
-=======
 - https://github.com/KyleKryst
 - https://github.com/Rmontgomery4801
->>>>>>> Stashed changes
 
 ## Deployment
 
 To deploy this project run
 
 ```bash
-  npm run deploy
+npm i axios
+npm i dotenv
+npm i express
+npm i express.handlebars
+npm i handlebars
+npm i mysql
+npm i mysql2
+npm i node
+npm i sequelize
+mysql -u root -p
+SOURCE db/schema.sql;
+exit
+node server.js
+
 ```
 
 ## Documentation
