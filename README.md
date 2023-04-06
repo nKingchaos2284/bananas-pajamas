@@ -54,4 +54,4 @@ node server.js
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot](images/Screenshot%202023-04-05%20at%208.56.52%20PM.png)
