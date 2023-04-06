@@ -19,17 +19,20 @@ Any additional information goes here
 
 - [@octokatherine](https://www.github.com/octokatherine)
 - https://github.com/nKingchaos2284
-- 
+- https://github.com/KyleKryst
 
 ## Deployment
 
 To deploy this project run
 
 ```bash
+npm i axios
 npm i dotenv
 npm i express
+npm i express.handlebars
 npm i handlebars
 npm i mysql
+npm i mysql2
 npm i node
 npm i sequelize
 mysql -u root -p
