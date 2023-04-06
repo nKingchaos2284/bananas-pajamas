@@ -25,25 +25,37 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
 
   <body>
     <div class="box">
-      <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="/search">In A GIFFY</a>
+      <nav class="navbar">
+        <a class="navbar-brand" href="/">In A GIFFY</a>
 
-        <form class="form-inline my-2 my-lg-0" action="/search" method="POST">
+        <form class="searchbar-form" action="/search" method="POST">
           <input
+            class="searchbar"
             type="text"
             name="giphy-query"
             placeholder="Search for a GIF here!"
           />
-          <input type="submit" value="Search" />
+          <input class="search-button" type="submit" value="Search" />
         </form>
 
-      </nav>
+        {{#if logged_in}}
+        <a href="/profile">profile</a> |
+        <button class="no-button" id="logout">logout</button>
+        {{else}}
+            <form class="searchbar-form">
+              <input class="searchbar" type="text" placeholder="Username" name="username">
+              <input class="searchbar" type="text" placeholder="Password" name="psw">
+              <a href="/login"></a><button class="search-button" type="submit">Login</button></a>
+            </form>
+        {{/if}}
 
+      </nav>
+      
       <main class="container-fluid text-center">
         {{{body}}}
       </main>
