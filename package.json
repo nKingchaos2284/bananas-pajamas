@@ -14,5 +14,29 @@
     "nodemon": "^2.0.22",
     "react": "^18.2.0",
     "sequelize": "^6.31.1"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "bananas-pajamas",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+  "version": "3.0.23",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nKingchaos2284/bananas-pajamas.git"
+  },
+  "keywords": [
+    "gif",
+    "search",
+    "engine",
+    "heroku"
+  ],
+  "author": "Collaboration",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nKingchaos2284/bananas-pajamas/issues"
+  },
+  "homepage": "https://github.com/nKingchaos2284/bananas-pajamas#readme"
 }
