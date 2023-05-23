@@ -1,54 +1,68 @@
-# bananas-pajamas
+# In A GIFFY #
 
-Group Project 2
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<<<<<<< HEAD
+## Description ##
 
-# gif search engine
+Our motivation to make this project was to have a simple GIF search engine that loads a random GIF upon visiting the homepage. One can also search for 20 GIFs at a time for each search prompt. We built this project to easily be able to search for a specific GIF to be able to use. Now with this project completed, we have learned throughout this project how to run a API fetch request from the backend of an application and connect it to the front end.
 
-The project is a simple but effiecient giF search engine/generator
-==================================================================
+## Table of Contents ##
 
-# Project Title
+[Deployment][deployment]
 
-A brief description of what this project does and who it's for
+[deployment]: https://github.com/bananas-pajamas/blob/main/README.md#installation
 
->>>>>>> b70aedc33c6171f9049619e416af5945b064094e
->>>>>>>
->>>>>>
->>>>>
->>>>
->>>
->>
+[🔗 Links][🔗 links]
 
-## Appendix
+[🔗 links]: https://github.com/bananas-pajamas/blob/main/README.md#🔗links
 
-Any additional information goes here
+[Screenshots][screenshots]
 
-## Authors
+[screenshots]: https://github.com//bananas-pajamas/blob/main/README.md#screenshots
 
-- [@octokatherine](https://www.github.com/octokatherine)
+[License][license]
+
+[license]: https://github.com//bananas-pajamas/blob/main/README.md#license
+
+## Authors ##
+
 - https://github.com/nKingchaos2284
-- 
+- https://github.com/KyleKryst
+- https://github.com/Rmontgomery4801
 
-## Deployment
+## Deployment ##
 
 To deploy this project run
 
 ```bash
-  npm run deploy
+npm i axios
+npm i dotenv
+npm i express
+npm i express.handlebars
+npm i handlebars
+npm i mysql
+npm i mysql2
+npm i node
+npm i nodemon
+npm i sequelize
+mysql -u root -p
+SOURCE db/schema.sql;
+exit
+node server.js
 ```
 
-## Documentation
+## 🔗 Links ##
 
-[Documentation](https://linktodocumentation)
+To Heroku hosted application
 
-## 🔗 Links
+https://in-a-gif.herokuapp.com/
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+## Screenshots ##
 
-## Screenshots
+![Screenshot 2023-04-06 151215](https://user-images.githubusercontent.com/119367684/230516845-d81774fa-caf9-439b-8b44-400235438013.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot 2023-04-06 151331](https://user-images.githubusercontent.com/119367684/230516886-02aca9b0-8000-4ede-9b25-761ec54f4e84.png)
+
+## License ##
+
+MIT License
